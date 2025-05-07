@@ -1185,6 +1185,17 @@ const HTML_CONTENT = `
             min-width: 100px;
         }
     }
+    /统一切换深色模式时搜索框的渐变/
+    .search-bar,
+    .search-bar input,
+    .search-bar select,
+    .search-bar button {
+        transition:
+            background-color 0.3s ease,
+            color 0.3s ease,
+            border-color 0.3s ease,
+            box-shadow 0.3s ease;
+    }
     </style>
 </head>
 
